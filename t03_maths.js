@@ -20,8 +20,10 @@ var year = 2025;
  
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
- console.log("year - age)
+ console.log("You were born in" ,year - age)
+ console.log("In 10 years you will be:" ,age + 10)
  console.log("You have",usermoney,"dollars");
+ console.log("Half of your money is" ,usermoney / 2, "Dollars")
 
 
 
