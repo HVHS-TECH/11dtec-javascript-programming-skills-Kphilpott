@@ -20,6 +20,7 @@ var year = 2025;
  
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
+ console.log("year - age)
  console.log("You have",usermoney,"dollars");
 
 
