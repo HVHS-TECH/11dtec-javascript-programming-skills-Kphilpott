@@ -18,6 +18,16 @@ var year = 2025;
  Main Code
  ******************************************/
  
+alert("Welcome ???? to my page")
+
+
+
+
+
+
+
+
+
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
  console.log("You were born in" ,year - age)
