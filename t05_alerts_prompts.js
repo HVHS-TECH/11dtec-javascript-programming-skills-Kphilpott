@@ -8,8 +8,9 @@ console.log("luxon is a egg");
 
     //variables
 var usermoney = 207;
-var username = prompt("What is your name?", "User");
-var age = 16;
+var username = prompt("Welcome ???? to my program! \nWhat is your name?", "User");
+var age = prompt("What is your age?", 16);
+
 var year = 2025;
 
 
@@ -19,8 +20,7 @@ var year = 2025;
  ******************************************/
  
 
-prompt("Welcome ???? to my program! \nWhat is your name?", "User");
-prompt("What is your age?", 16);
+
 
 
 
