@@ -9,7 +9,7 @@ console.log("luxon is a egg");
     //variables
 var usermoney = 207;
 var username = prompt("Welcome ???? to my program! \nWhat is your name?", "User");
-var age = prompt("What is your age?", 16);
+var age = prompt("Please  is your age?", 16);
 
 var year = 2025;
 
@@ -31,7 +31,7 @@ var year = 2025;
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
  console.log("You were born in" ,year - age)
- console.log("In 10 years you will be:",age + 10,"years old")
+ console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
  console.log("You have",usermoney,"dollars");
  console.log("Half of your money is" ,usermoney / 2, "Dollars")
 
