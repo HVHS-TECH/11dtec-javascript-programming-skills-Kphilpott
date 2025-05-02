@@ -18,9 +18,9 @@ var year = 2025;
  Main Code
  ******************************************/
  
-alert("Welcome ???? to my page");
-prompt("What is your name?", "User");
 
+prompt("Welcome ???? to my program! \nWhat is your name?", "User");
+prompt("What is your age?", 16);
 
 
 
