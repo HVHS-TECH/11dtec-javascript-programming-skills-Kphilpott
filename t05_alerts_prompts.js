@@ -18,8 +18,8 @@ var year = 2025;
  Main Code
  ******************************************/
  
-alert("Welcome ???? to my page")
-
+alert("Welcome ???? to my page");
+prompt("What is your name?", "User");
 
 
 
