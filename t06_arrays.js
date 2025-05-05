@@ -33,7 +33,7 @@ alert(chocolate[choice]);
  console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
  console.log("You have",usermoney,"dollars");
  console.log("Half of your money is" ,usermoney / 2, "Dollars")
-
+console.log(chocolate[choice] )
 
 
 
