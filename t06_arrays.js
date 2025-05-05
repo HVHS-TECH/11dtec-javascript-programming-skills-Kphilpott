@@ -12,8 +12,8 @@ var username = prompt("Welcome to my program! \nWhat is your name?", "User");
 var age = prompt("Please enter your age " + username, 16);
 var year = prompt("What year is it?", 2025);
 let chocolate = ["You dont like chocolate.", "its meh", "you like chocolate", "you like chocolate a lot"];
-let choice = prompt("Do you like chocolate from 0-3);
-
+let choice = prompt("Do you like chocolate from 0-3");
+alert(chocolate[choice]);
 /*******************************************
  Main Code
  ******************************************/
