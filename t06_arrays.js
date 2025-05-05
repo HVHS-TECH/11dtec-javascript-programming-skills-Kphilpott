@@ -22,6 +22,11 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
 
+if (age < 18) {
+    console.log("Get back to School");}
+
+else if (age > 18 && age < 30) {
+    console.log("Get a Job already");}
 
 
 
