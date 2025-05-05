@@ -15,21 +15,14 @@ let chocolate = ["You dont like chocolate.", "its meh", "you like chocolate", "y
 let choice = prompt("Do you like chocolate from 0-3");
 let space = ["Good Choice.", "Bad Choice, have fun on Venus without a Spacesuit."];
 let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
+
+
 /*******************************************
  Main Code
  ******************************************/
  
 
 
-
-if (age < 18) {
-    console.log("Get back to School");}
-
-else if (age > 18 && age < 30) {
-    console.log("Get a Job already");}
-
-else if (age > 30 && age < 100) {
-    console.log("Get a Life");}
 
 
 
@@ -43,7 +36,17 @@ else if (age > 30 && age < 100) {
  console.log(chocolate[choice] )
  console.log(space[choice2])
 
+ if (age < 18) {
+    console.log("Get back to School");}
 
+else if (age > 18 && age < 30) {
+    console.log("Get a Job already");}
+
+else if (age > 30 && age < 100) {
+    console.log("Get a Life");}
+
+else {
+    console.log("You are a Relic");}
 
 
 
