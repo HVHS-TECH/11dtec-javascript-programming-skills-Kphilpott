@@ -11,7 +11,7 @@ var usermoney = 207;
 var username = prompt("Welcome to my program! \nWhat is your name?", "User");
 var age = prompt("Please enter your age " + username, 16);
 var year = prompt("What year is it?", 2025);
-let chocolate = ["milk", "dark", "white"];
+let chocolate = ["0", "1", "2", "3"];
 
 
 /*******************************************
