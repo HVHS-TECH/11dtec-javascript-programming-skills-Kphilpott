@@ -45,6 +45,9 @@ else if (age > 18 && age < 30) {
 else if (age > 30 && age < 100) {
     console.log("Get a Life");}
 
+else if (age > 100 && age < 500) {
+    console.log("Prune");}
+
 else {
     console.log("You are a Relic");}
 
