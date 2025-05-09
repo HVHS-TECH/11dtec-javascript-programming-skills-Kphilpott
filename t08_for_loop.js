@@ -29,7 +29,7 @@ for (count = 0; count < 5; count++); {
     prompt("Please enter a number" , 0);
 }
 
-   ///this doesnt work at all
+   ///this STILL doesnt work at all
    //i have no idea how to do this
 
 
