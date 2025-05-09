@@ -4,7 +4,7 @@ this is the for loops lesson (t08_for_loop.js)
 *******************************************/
 
 console.log("luxon is a egg");
-
+/*
 
     //variables
 var username = prompt("Welcome to my program! \nWhat is your name?", "User");
@@ -18,7 +18,7 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
 
-
+*/
 
 
 
@@ -42,7 +42,7 @@ for (count = 0; count < 5; count++); {
 
 
 
-
+/*
 
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
