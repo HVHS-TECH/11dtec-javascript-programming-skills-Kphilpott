@@ -18,7 +18,8 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
 
-
+for 
+    prompt("Please enter a number");
 
 
 
