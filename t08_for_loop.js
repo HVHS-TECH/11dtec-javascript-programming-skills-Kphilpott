@@ -68,9 +68,11 @@ if (username == "Kees") {
     console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
 }
 
-
-for (count = 3; count<20; count++);
-
+console.log("Loop started");
+for (count = 3; count<20; count++) {
+    console.log("Current Count is", count);
+}
+console.log("Loop ended");
 
 
 
