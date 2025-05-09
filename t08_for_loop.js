@@ -18,16 +18,15 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
 
+
+
+
+
+
+
+      //what am i even supposed to put in this?????
 for (??????);
     prompt("Please enter a number" , 0);
-
-
-
-
-
-
-
-
 
 
 
