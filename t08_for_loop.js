@@ -25,9 +25,9 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
       //what am i even supposed to put in this?????
-for (??????);
+for (count = 0; count < 5; count++); {
     prompt("Please enter a number" , 0);
-
+}
 
 
 
