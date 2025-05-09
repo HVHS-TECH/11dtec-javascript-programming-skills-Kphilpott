@@ -17,6 +17,9 @@ let space = ["Good Choice.", "Bad Choice, have fun on Venus without a Spacesuit.
 let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
+
+
+
 /*******************************************
  Main Code
  ******************************************/
