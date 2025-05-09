@@ -1,6 +1,6 @@
 
 /*******************************************
-this is the 1st arrays lesson (t06_arrays.js) 
+this is the ifs lesson (t07_ifs.js) 
 *******************************************/
 
 console.log("luxon is a egg");
@@ -53,11 +53,20 @@ else {
 
 
 
+ if (username == "Christopher Luxon") {
+    console.log("You are a Idiot");}
+else if (username == "Luxon") {
+    console.log("You are a Idiot");}
 
+ else if (username == "luxon") {
+    console.log("You are a Idiot");}
 
+ else if (username == "christopher uxon") {
+    console.log("You are a Idiot");}
 
-
-
+if (username == "Kees") {
+    console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
+}
 
 
 
