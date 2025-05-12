@@ -4,7 +4,7 @@ this is the for loops lesson (t08_for_loop.js)
 *******************************************/
 
 console.log("luxon is a egg");
-/*
+
 
     //variables
 var username = prompt("Welcome to my program! \nWhat is your name?", "User");
@@ -18,19 +18,18 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 
 
-*/
 
 
+var total = 0
 
+console.log("The total is", total);
 
-
-      //what am i even supposed to put in this?????
-for (count = 0; count < 5; count++); {
-    prompt("Please enter a number" , 0);
+      //took three days to make just thia
+for (count = 0; count < 5; count++) {
+    var userInputNumber = prompt("Please enter a number" , 0);
+    total = total + parseInt(userInputNumber);
 }
 
-   ///this STILL doesnt work at all
-   //i have no idea how to do this
 
 
 
@@ -42,7 +41,7 @@ for (count = 0; count < 5; count++); {
 
 
 
-/*
+
 
  console.log("Hello",username,);
  console.log("As of",year,"you are almost",age,"years old")
@@ -84,15 +83,21 @@ else if (username == "Luxon") {
 if (username == "Kees") {
     console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
 }
-
+/*
 console.log("Loop started");
 for (count = 3; count<20; count++) {
     console.log("Current Count is", count);
 }
 console.log("Loop ended");
+*/
+console.log("The total is", total);
 
 
 
+
+/*    //test to copy-paste when needed
+console.log()
+*/
 
 
 
