@@ -62,10 +62,10 @@ getFavoriteColour();
 
 
  
-
+/*
  console.log(chocolate[choice] )
  console.log(space[choice2])
-
+*/
  if (age < 18) {
     console.log("Get back to School");}
 
