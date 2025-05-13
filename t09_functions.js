@@ -40,8 +40,13 @@ for (count = 0; count < 5; count++) {
 askUserName();
 askYear();
 askUserAge();
-askUserMoney();
 ageMaths();
+askUserMoney();
+MoneyMaths();
+
+
+
+
 
 if (usermoney < 24) {
    alert("Economic inflation sucks, You cannot afford a chocolate bar");
@@ -53,15 +58,11 @@ else console.log("You can afford a chocolate bar");
 getFavoriteColour();
 
 
-/*
 
 
- console.log("Hello",username,);
- console.log("As of",year,"you are almost",age,"years old")
- console.log("You were born in" ,year - age)
- console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
- console.log("You have",usermoney ,"dollars");
- console.log("Half of your money is" ,usermoney / 2, "Dollars")
+
+ 
+
  console.log(chocolate[choice] )
  console.log(space[choice2])
 
@@ -154,7 +155,9 @@ function ageMaths() {
     console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
 }
 
-
+function MoneyMaths() {
+    console.log("Half of your money is" ,usermoney / 2, "Dollars")
+}
 
 
  
