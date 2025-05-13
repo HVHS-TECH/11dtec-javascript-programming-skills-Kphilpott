@@ -37,7 +37,7 @@ for (count = 0; count < 5; count++) {
  Main Code
  ******************************************/
  
-
+getFavoriteColour();
 
 
 /*
@@ -112,7 +112,10 @@ console.log()
  Functions
  *******************************************/
 
-
+function getFavoriteColour() {
+    userFavColour = prompt("What is your favourite colour?", "Red");
+    alert("Your favourite colour is " + userFavColour);
+}
 
 
 
