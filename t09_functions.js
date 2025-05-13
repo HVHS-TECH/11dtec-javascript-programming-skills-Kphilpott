@@ -2,9 +2,9 @@
 /*******************************************
 this is the functions lesson (t09_functions.js) 
 *******************************************/
-/*
-console.log("luxon is a egg");
 
+console.log("luxon is a egg");
+/*
 
     //variables
 var username = prompt("Welcome to my program! \nWhat is your name?", "User");
@@ -40,8 +40,13 @@ for (count = 0; count < 5; count++) {
 askUserName();
 askYear();
 askUserAge();
+askUserMoney();
+ageMaths();
 
-
+if (usermoney < 24) {
+   alert("You cannot afford a chocolate bar");
+}
+else console.log("You can afford a chocolate bar");
 
 
 
@@ -144,7 +149,10 @@ function askUserMoney() {
     console.log("You have",usermoney ,"dollars");
 }
 
-
+function ageMaths() {
+    console.log("You were born in" ,year - age)
+    console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
+}
 
 
 
