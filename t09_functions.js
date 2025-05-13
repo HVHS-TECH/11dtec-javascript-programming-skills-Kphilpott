@@ -136,10 +136,13 @@ function askYear() {
 
 function askUserAge() {
     age = prompt("Please enter your age " + username, 16);
-   console.log(console.log("As of",year,"you are almost",age,"years old"));
+   console.log("As of",year,"you are almost",age,"years old");
 }
 
-
+function askUserMoney() {
+    usermoney = prompt("How much money do you have? \n(Do not put a Comma please)", 0);
+    console.log("You have",usermoney ,"dollars");
+}
 
 
 
