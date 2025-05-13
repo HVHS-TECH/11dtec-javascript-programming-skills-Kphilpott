@@ -44,7 +44,7 @@ askUserMoney();
 ageMaths();
 
 if (usermoney < 24) {
-   alert("You cannot afford a chocolate bar");
+   alert("Economic inflation sucks, You cannot afford a chocolate bar");
 }
 else console.log("You can afford a chocolate bar");
 
