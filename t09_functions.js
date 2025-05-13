@@ -37,6 +37,14 @@ for (count = 0; count < 5; count++) {
  Main Code
  ******************************************/
  
+askUserName();
+askYear();
+askUserAge();
+
+
+
+
+
 getFavoriteColour();
 
 
@@ -117,9 +125,19 @@ function getFavoriteColour() {
     alert("Your favourite colour is " + userFavColour);
 }
 
+function askUserName() {
+    username = prompt("Welcome to my program! \nWhat is your name?", "User");
+   console.log("Hello",username,);
+}
 
+function askYear() {
+    year = prompt("What year is it?", 2025);
+}
 
-
+function askUserAge() {
+    age = prompt("Please enter your age " + username, 16);
+   console.log(console.log("As of",year,"you are almost",age,"years old"));
+}
 
 
 
