@@ -48,37 +48,7 @@ for (count = 0; count < 5; count++) {
  console.log(chocolate[choice] )
  console.log(space[choice2])
 */
- if (age < 18) {
-    console.log("Get back to School");}
-
-else if (age > 18 && age < 30) {
-    console.log("Get a Job already");}
-
-else if (age > 30 && age < 100) {
-    console.log("Get a Life");}
-
-else if (age > 100 && age < 500) {
-    console.log("Prune");}
-
-else {
-    console.log("You are a Relic");}
-
-
-
- if (username == "Christopher Luxon") {
-    console.log("You are a Idiot");}
-else if (username == "Luxon") {
-    console.log("You are a Idiot");}
-
- else if (username == "luxon") {
-    console.log("You are a Idiot");}
-
- else if (username == "christopher uxon") {
-    console.log("You are a Idiot");}
-
-if (username == "Kees") {
-    console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
-}
+ 
 /*
 console.log("Loop started");
 for (count = 3; count<20; count++) {
@@ -159,4 +129,38 @@ function start() {
    MoneyMaths();
    chocMoney();
    getFavoriteColour();
+
+
+if (age < 18) {
+    console.log("Get back to School");}
+
+else if (age > 18 && age < 30) {
+    console.log("Get a Job already");}
+
+else if (age > 30 && age < 100) {
+    console.log("Get a Life");}
+
+else if (age > 100 && age < 500) {
+    console.log("Prune");}
+
+else {
+    console.log("You are a Relic");}
+
+
+
+ if (username == "Christopher Luxon") {
+    console.log("You are a Idiot");}
+else if (username == "Luxon") {
+    console.log("You are a Idiot");}
+
+ else if (username == "luxon") {
+    console.log("You are a Idiot");}
+
+ else if (username == "christopher uxon") {
+    console.log("You are a Idiot");}
+
+if (username == "Kees") {
+    console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
+}
+
 }
