@@ -43,15 +43,12 @@ askUserAge();
 ageMaths();
 askUserMoney();
 MoneyMaths();
+chocMoneyy();
 
 
 
 
 
-if (usermoney < 24) {
-   alert("Economic inflation sucks, You cannot afford a chocolate bar");
-}
-else console.log("You can afford a chocolate bar");
 
 
 
@@ -160,4 +157,10 @@ function MoneyMaths() {
 }
 
 
- 
+ function chocMoney() {
+    if (usermoney < 24) {
+   alert("Economic inflation sucks, You cannot afford a chocolate bar");
+   console.log("Economic inflation sucks, You cannot afford a chocolate bar");
+    }
+else console.log("You can afford a chocolate bar");
+}
