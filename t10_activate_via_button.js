@@ -37,14 +37,7 @@ for (count = 0; count < 5; count++) {
  Main Code
  ******************************************/
  
-askUserName();
-askYear();
-askUserAge();
-ageMaths();
-askUserMoney();
-MoneyMaths();
-chocMoney();
-getFavoriteColour();
+
 
 
 
@@ -157,3 +150,13 @@ function MoneyMaths() {
 else console.log("You can afford a chocolate bar");
 }
 
+function start() {
+   askUserName();
+   askYear();
+   askUserAge();
+   ageMaths();
+   askUserMoney();
+   MoneyMaths();
+   chocMoney();
+   getFavoriteColour();
+}
