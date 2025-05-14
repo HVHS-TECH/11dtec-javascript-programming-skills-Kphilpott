@@ -44,14 +44,6 @@ ageMaths();
 askUserMoney();
 MoneyMaths();
 chocMoney();
-
-
-
-
-
-
-
-
 getFavoriteColour();
 
 
