@@ -43,7 +43,7 @@ askUserAge();
 ageMaths();
 askUserMoney();
 MoneyMaths();
-chocMoneyy();
+chocMoney();
 
 
 
