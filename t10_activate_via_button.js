@@ -163,4 +163,8 @@ if (username == "Kees") {
     console.log("T⍑ᔑℸ ̣ ᓭ c𝙹𝙹ꖎ");
 }
 
+if (username == "Adam") {
+    console.log("You're very nice");
+}
+
 }
