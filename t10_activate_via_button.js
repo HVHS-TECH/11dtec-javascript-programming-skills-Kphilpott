@@ -1,6 +1,6 @@
 
 /*******************************************
-this is the functions lesson (t09_functions.js) 
+this is the buttons lesson (t10_activate_via_button.js) 
 *******************************************/
 
 console.log("luxon is a egg");
