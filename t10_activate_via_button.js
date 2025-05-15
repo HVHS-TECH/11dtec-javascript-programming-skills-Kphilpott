@@ -120,6 +120,17 @@ function MoneyMaths() {
 else console.log("You can afford a chocolate bar");
 }
 
+
+function FiveChoicesNumbers() {
+console.log("The total is", total);
+
+      //took three days to make just thia
+for (count = 0; count < 5; count++) {
+    var userInputNumber = prompt("Please enter a number" , 0);
+    total = total + parseInt(userInputNumber);
+}
+}
+
 function start() {
    askUserName();
    askYear();
