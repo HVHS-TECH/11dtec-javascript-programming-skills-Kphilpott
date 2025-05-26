@@ -80,25 +80,42 @@ console.log()
 
 function getFavoriteColour() {
     userFavColour = prompt("What is your favourite colour?", "Red");
+    while (userFavColour == null) {
+        userFavColour = prompt("Please enter a valid colour", "Red");
+    }
     alert("Your favourite colour is " + userFavColour);
 }
 
 function askUserName() {
     username = prompt("Welcome to my program! \nWhat is your name?", "User");
-   console.log("Hello",username,);
+   while (username == null) {
+        username = prompt("Please enter a valid name", "User");
+    }
+    console.log("Hello",username,);
 }
 
 function askYear() {
     year = prompt("What year is it?", 2025);
+    while (year == null) {
+        year = prompt("Please enter a valid year", 2025);
+    }
 }
 
 function askUserAge() {
     age = prompt("Please enter your age " + username, 16);
-   console.log("As of",year,"you are almost",age,"years old");
+   while (age == null) {
+        age = prompt("Please enter a valid age", 16);
+    }
+    console.log("As of",year,"you are almost",age,"years old");
 }
 
 function askUserMoney() {
     usermoney = prompt("How much money do you have? \n(Do not put a Comma please)", 0);
+    while (usermoney === null ||
+        usermoney === "" ||
+        isNaN(usermoney)) {
+        usermoney = prompt("Please enter a valid amount of money", 0);
+    }
     console.log("You have",usermoney ,"dollars");
 }
 
@@ -122,11 +139,37 @@ else console.log("You can afford a chocolate bar");
 
 
 function FiveChoicesNumbers() {
-for (count = 0; count < 5; count++) {
-    var userInputNumber = prompt("Please enter a number" , 0);
-    total = total + parseInt(userInputNumber);
-}
+    total = 0;
+    let count = 0;
+    while (count < 5) {
+        let userInputNumber = prompt("Please enter a number", 0);
+        while (
+            userInputNumber === null ||
+            userInputNumber === "" ||
+            isNaN(userInputNumber)
+        ) {
+            userInputNumber = prompt("Please enter a valid number", 0);
+        }
+        total = total + parseInt(userInputNumber);
+        count++;
+    }
 console.log("The total is", total);
+}
+
+function infLoop() {
+    let userInput = prompt("Continue Loop? (Y/N)", "Y");
+    let loopCount = 0;
+    while (userInput !== "Y" && userInput !== "N") {
+        userInput = prompt("Please enter a valid response (Y/N)", "Y");
+    }
+    while (userInput === "Y") {
+        loopCount++;
+        userInput = prompt("Continue Loop? (Y/N)", "Y");
+        while (userInput !== "Y" && userInput !== "N") {
+            userInput = prompt("Please enter a valid response (Y/N)", "Y");
+        }
+    }
+    console.log("The loop repeated", loopCount, "times.");
 }
 
 function start() {
@@ -139,6 +182,7 @@ function start() {
    chocMoney();
    getFavoriteColour();
    FiveChoicesNumbers();
+   infLoop();
 
 if (age < 18) {
     console.log("Get back to School");}
