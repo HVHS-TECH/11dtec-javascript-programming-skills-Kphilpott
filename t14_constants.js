@@ -1,6 +1,6 @@
 
 /*******************************************
-this is the while loops lesson (t12_while_loops.js) 
+this is the constants lesson (t14_constants.js) 
 *******************************************/
 
 console.log("luxon is a egg");
