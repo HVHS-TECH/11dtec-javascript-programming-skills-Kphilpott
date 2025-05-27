@@ -182,6 +182,15 @@ function infLoop() {
     console.log("The loop repeated", loopCount, "times.");
 }
 
+function arrayTest() {
+    let testarray = [1, 2, 3, 4, 5];
+    let messagetest = "Numbers in the array are: ";
+    for (i = 0; i < testarray.length; i++) {
+        messagetest = messagetest + "\nNumber" + i + "is" +testarray[i];
+    }
+    alert(messagetest);
+}
+
 function start() {
    askUserName();
    askYear();
