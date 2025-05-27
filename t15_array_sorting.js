@@ -189,6 +189,13 @@ function arrayTest() {
         messagetest = messagetest + "\nNumber " + i + " is " +testarray[i];
     }
     alert(messagetest);
+    let newNumber = prompt("Please enter a number to add to the array", 0);
+    testarray.push(parseInt(newNumber));
+    messagetest = "Numbers in the array are: ";
+    for (i = 0; i < testarray.length; i++) {
+        messagetest = messagetest + "\nNumber " + i + " is " + testarray[i];
+    }
+    alert(messagetest);
 }
 
 function start() {
