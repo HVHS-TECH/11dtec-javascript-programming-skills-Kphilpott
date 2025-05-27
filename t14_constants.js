@@ -21,6 +21,7 @@ let choice2 = prompt("Do Like Space? \n0 for yes, 1 for no");
 
 */
 var total = 0
+const DRIVINGAGE = 16;
 /*
 console.log("The total is", total);
 
@@ -122,6 +123,10 @@ function askUserMoney() {
 function ageMaths() {
     console.log("You were born in" ,year - age)
     console.log("In 10 years you will be:", parseInt(age) + 10, "years old");
+}
+
+function drivingAge() {
+    
 }
 
 function MoneyMaths() {
