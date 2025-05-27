@@ -126,7 +126,12 @@ function ageMaths() {
 }
 
 function drivingAge() {
-    
+    if (age < DRIVINGAGE) {
+        alert("You are not old enough to drive");
+    }
+    else {
+        alert("You are old enough to drive");
+    }
 }
 
 function MoneyMaths() {
@@ -182,6 +187,7 @@ function start() {
    askYear();
    askUserAge();
    ageMaths();
+   drivingAge();
    askUserMoney();
    MoneyMaths();
    chocMoney();
