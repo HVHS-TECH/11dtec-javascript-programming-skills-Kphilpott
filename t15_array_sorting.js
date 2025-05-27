@@ -186,7 +186,7 @@ function arrayTest() {
     let testarray = [1, 2, 3, 4, 5];
     let messagetest = "Numbers in the array are: ";
     for (i = 0; i < testarray.length; i++) {
-        messagetest = messagetest + "\nNumber" + i + "is" +testarray[i];
+        messagetest = messagetest + "\nNumber " + i + " is " +testarray[i];
     }
     alert(messagetest);
 }
@@ -203,6 +203,7 @@ function start() {
    getFavoriteColour();
    FiveChoicesNumbers();
    infLoop();
+   arrayTest();
 
 if (age < 18) {
     console.log("Get back to School");}
