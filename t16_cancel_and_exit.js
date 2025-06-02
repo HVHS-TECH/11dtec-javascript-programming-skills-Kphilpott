@@ -199,7 +199,7 @@ function arrayTest() {
 }
 
 function main() {
-     askUserName();
+   askUserName();
    askYear();
    askUserAge();
    ageMaths();
@@ -209,12 +209,21 @@ function main() {
    chocMoney();
    getFavoriteColour();
    FiveChoicesNumbers();
-   infLoop();
    arrayTest();
 }
+
+function personalData() {
+    let personaldata;
+    do {
+        personaldata = prompt("Do you want us to sell your personal data to third parties? (Y to continue)", "Y");
+    } while (!personaldata || personaldata.trim().toUpperCase() !== "Y");
+    alert("Thank you for your consent. We will sell your data to third parties.");
+    main();
+}
+
 function start() {
     if (prompt("Do you want to start the program? (Y/N)", "Y").toUpperCase() === "Y") {
-        main();
+        personalData();
     }
     else {
         console.log("Program exited.");
@@ -222,7 +231,10 @@ function start() {
     }
   
 
-if (age < 18) {
+if (age < 5) {
+    console.log("why you here?");}
+
+else if (age < 18) {
     console.log("Get back to School");}
 
 else if (age > 18 && age < 30) {
