@@ -107,6 +107,8 @@ function askUserAge() {
    while (age == null) {
         age = prompt("Please enter a valid age", 16);
     }
+    if (age < 5) {
+    return;}
     console.log("As of",year,"you are almost",age,"years old");
 }
 
