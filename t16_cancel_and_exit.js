@@ -232,7 +232,7 @@ function start() {
   
 
 if (age < 5) {
-    console.log("why you here?");}
+    return;}
 
 else if (age < 18) {
     console.log("Get back to School");}
